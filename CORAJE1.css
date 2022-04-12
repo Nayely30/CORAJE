@@ -1,0 +1,139 @@
+*{
+    margin: 1%;
+    padding: 0;
+    background-color: black;
+    box-sizing: border-box;
+    
+}
+body {
+    background-color: rgb(26, 8, 2);
+    color: black;
+    margin: 5%;
+}
+header{
+    margin: 10px;
+}
+head{
+    background-color: black;
+    text-align: center;
+    margin: 5%;
+}
+h1{
+    background-color:black;
+    color: blueviolet;
+    font-family: 'HELLO CATTO';
+    font-size: 970%;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+nav{
+    color: azure;
+   font-family: 'Gabriola';
+    font-size: 260%;
+}
+h2{
+    background-color: black;
+    color: rgb(174, 101, 243);
+    font-family: 'HELLO CATTO';
+    font-size: 430%;
+    width: 100%;
+    box-sizing: border-box;
+}
+h3{
+    background-color: rgb(133, 49, 217);
+    color: aliceblue;
+    font-family: 'Paper Flowers';
+    font-size: 290%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+p{
+    color: white;
+    font-family: 'Kristen ITC';
+    font-size: 150%;
+    weight: 30%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: black;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: medium;
+    width: 100%;
+}
+img{
+    border: 3px;
+    border-radius: 12px;
+    max-width: 100%;
+}
+.contenedor{
+    background-color: black;
+    width: 100%;
+    max-width: 10000px;
+    margin:0 auto;
+    box-sizing: border-box;  
+}
+iframe{
+    width: 100%;
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 600px){
+    h1{
+        font-size: 670%;
+        width: 100%;
+        text-align: center;
+    }
+    h2{
+        font-size: 271%;
+        width: 100%;
+    }
+    h3{
+        font-size: 230%;
+        width: 140%;
+    }
+    p{
+        font-size: 120%;
+        width: 100%;
+    }
+    nav{
+        font-size: 200%;
+        width: 100%;
+    }
+    .contenedor{
+        margin: 0;
+        padding: 0;
+    }
+    img{
+        max-width: 100%;
+    }
+    }
+    iframe{
+        max-width: 100%;
+    }
+}
+@media only screen and (max-wsidth: 1024px){
+    }
+    .container{
+      margin: 0;
+      padding: 0;
+    }
+    img{
+      max-width: 100%;
+    }
+    .container video{
+      max-width: 100%;
+    }
+    header{
+      max-width: 100%;
+    }
+    iframe{
+        max-width: 100%;
+    }
+}
+   
+  
